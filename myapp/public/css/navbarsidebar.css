@@ -1,0 +1,159 @@
+
+  .iq-search-bar {
+    margin-top: 7px; /* add this line to move the search bar down */
+  }
+
+  .iq-search-bar input[type="text"] {
+  background-color: #F7F7F7; /* light gray color */
+}
+.iq-search-bar .search-link i {
+  color: #9BA4B5; /* dark gray color */
+}
+
+
+  .iq-navbar-logo {
+    margin-top: -5px; /* add this line to move the logo and text down */
+  }
+  
+  .navbar-list {
+    margin-top: 5px; /* add this line to move the profile picture and text down */
+  }
+ 
+  body {
+  background-color: #ECF9FF; /* light blue color */
+}
+.iq-sidebar::before {
+    content: "";
+    display: block;
+    background-image: inherit;
+    transform: scaleX(-1);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+  
+.iq-sidebar .header-logo span {
+
+  font-weight: bold;
+}
+
+.iq-sidebar {
+  background-color: #FFFFFF; /* change to white */
+
+}
+
+
+.iq-top-navbar {
+  width: 130vw; /* or a specific width value, e.g., 1200px */
+  background-color: #FFFFFF; /* light blue color */
+  padding: -20px 50px;
+top: -10px;}
+
+ 
+.header-logo span {
+  font-family: 'MyCustomFont', sans-serif; /* replace with your custom font name */
+  font-size: 1.8em; /* increase font size for better visibility */
+  font-weight: bold; /* add boldness for extra emphasis */
+  text-transform: uppercase; /* convert text to uppercase for a stronger look */
+  letter-spacing: 3px; /* add some space between letters for a more dramatic effect */
+  color: #03457C; /* use a vibrant, bold orange-red color to convey energy and passion */
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5); /* add a subtle shadow to give the text some depth */
+  border-bottom: 2px solid #03457C; /* add a thin border to create a sense of movement */
+  padding-bottom: 5px; /* add some space between the text and the border */
+  transition: all 0.3s ease-in-out; /* add a smooth transition effect on hover */
+}
+
+.header-logo span:hover {
+  color: #03457C; /* change the text color to a deep blue on hover */
+  border-bottom-color: #03457C; /* change the border color to match the text color on hover */
+  transform: translateY(-2px); /* add a slight upward movement on hover */
+}
+
+
+   
+
+  /* New CSS class for smaller image */
+  .profile-img {
+            width: 30px; /* Adjust the width as needed */
+            height: auto; /* Maintain aspect ratio */
+         }
+
+         .navbar-nav .line-height .caption h6 {
+  margin-top: 5px; /* Sesuaikan nilai margin-top sesuai kebutuhan */}
+
+  .navbar-nav .line-height a {
+  padding-top: 10px; /* Sesuaikan nilai ini untuk posisi yang diinginkan */
+}
+
+
+.iq-search-bar .logo {
+  margin-right: 10px;
+}
+
+.iq-search-bar .logo img {
+  width: 45px;
+  height: 35px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+
+
+
+.iq-search-bar .container {
+  background-color: #FFFFFF; /* Tambahkan ini */
+
+}
+
+.small-text {
+  font-size: 1.2em; /* Ubah ukuran font menjadi 1.2em */
+}
+
+.bold-text {
+  font-weight: bold; /* Buat font menjadi bold */
+}
+
+
+
+.iq-search-bar {
+  position: absolute;
+  top: 6%;
+  transform: translateY(30%);
+  transition: transform 0.3s ease-in-out;
+  right: 50%; /* ubah nilai ini menjadi 20% */
+}
+
+.iq-search-bar.expanded {
+  transform: translateX(85%); /* tambahkan ini */
+  right: 60%; /* ubah nilai ini menjadi 50% */
+}
+.iq-navbar-logo a span {
+  margin-left: 10px; /* add this line to move the text to the right */
+}
+
+#content-page {
+  margin-top: -30px; /* adjust the value to your liking */
+
+}
+
+.container-fluid {
+  padding-top: 0px;
+  padding-right: 0px;
+  padding-bottom: 0px;
+  padding-left: 0px;
+}
+
+ .iq-card-header {
+            background-color: #283c74; /* #52bac9 logo color Mengatur warna background header menjadi biru muda */
+        }
+      
+.iq-card-header h3{
+  color:white;
+}
+
+.iq-card-header h4{
+  color:white;
+}
